@@ -1,0 +1,101 @@
+
+/* This styles the Nav Bars For all pages */
+/*
+@font-face{
+    font-family: 'Copperplate';
+    src: url(/Users/jerilynwomack/Desktop/ProjectOne/fonts/Copperplate.ttc)
+    }
+    ul{
+        font-family: 'Copperplate';
+        margin:0;
+        list-style-type: none;
+        padding: 0px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+  }
+    li{
+        text-emphasis: center;
+        display: inline;
+    }
+    li a{
+        display: inline;
+        color:white;
+        text-align:center;
+        padding: 0px;
+        text-decoration: none;
+        }
+        a{
+            background-color: #16ace3;
+            display: block;
+            padding: 0px;
+            width: 100%;
+        }
+*/
+        .bg-color{
+            background-color: #16ace3;
+            min-height: 200px;
+            background-position: center;
+            box-shadow: 2px 2px 4px #000000;
+        }
+        
+        .container{
+            position: relative;
+            margin: 20px;
+            width: auto;
+            height: auto;
+            padding:0px;
+            }
+
+    .topnav{
+        overflow: hidden;
+        font-family: 'Copperplate';
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 70px;
+
+    }
+    .topnav a {
+        float:inline;
+        color: white;
+        text-align: center;
+        padding: 0px;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+        
+       /* Styles logo on the nav bars for all pages except the home page */
+    
+       .logo{
+        display:inline-block;        
+        position: relative;
+        margin:0px;
+        padding:0px; 
+        padding-bottom: 70px;    
+        height: 300px;   
+             }
+             
+/* Stlyes the Carousel on the home page */
+section#carousel > figure > img {
+            display: none;   
+            margin: 0px auto; 
+            position: relative;
+            overflow: hidden; 
+            width: 100%; 
+            }
+section#carousel > figure.visible > img {
+            display:block;
+            position: relative;
+            overflow: hidden;
+}
+
+/* Styles logo on the homepage */
+.homepagelogo{
+    position: relative;
+    margin: 0px;
+    padding:0px;
+    
+}         
+             
