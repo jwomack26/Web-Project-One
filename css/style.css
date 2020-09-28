@@ -1,38 +1,5 @@
 
 /* This styles the Nav Bars For all pages */
-/*
-@font-face{
-    font-family: 'Copperplate';
-    src: url(/Users/jerilynwomack/Desktop/ProjectOne/fonts/Copperplate.ttc)
-    }
-    ul{
-        font-family: 'Copperplate';
-        margin:0;
-        list-style-type: none;
-        padding: 0px;
-        overflow: hidden;
-        text-align: center;
-        font-size: 20px;
-        position: relative;
-  }
-    li{
-        text-emphasis: center;
-        display: inline;
-    }
-    li a{
-        display: inline;
-        color:white;
-        text-align:center;
-        padding: 0px;
-        text-decoration: none;
-        }
-        a{
-            background-color: #16ace3;
-            display: block;
-            padding: 0px;
-            width: 100%;
-        }
-*/
         .bg-color{
             background-color: #16ace3;
             min-height: 200px;
@@ -44,7 +11,7 @@
             position: relative;
             margin: 20px;
             width: auto;
-            height: auto;
+            height: 250px;
             padding:0px;
             }
 
@@ -54,15 +21,15 @@
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 70px;
-
     }
+
     .topnav a {
         float:inline;
         color: white;
         text-align: center;
         padding: 0px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 30px;
         position: relative;
     }
         
@@ -73,9 +40,16 @@
         position: relative;
         margin:0px;
         padding:0px; 
-        padding-bottom: 70px;    
-        height: 300px;   
+        padding-bottom: 0px;    
+        height: 250px;   
              }
+             /* Styles the positiong of the nav bar items*/
+             .menu-item
+             {
+                 position: relative;
+                 bottom:105px;
+                 left: 140px
+                  }
              
 /* Stlyes the Carousel on the home page */
 section#carousel > figure > img {
