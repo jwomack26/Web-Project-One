@@ -5,6 +5,7 @@
             min-height: 200px;
             background-position: center;
             box-shadow: 2px 2px 4px #000000;
+            width: auto;
         }
         
         .container{
@@ -21,6 +22,7 @@
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 70px;
+        text-emphasis: center;
     }
 
     .topnav a {
@@ -32,6 +34,10 @@
         font-size: 30px;
         position: relative;
     }
+
+/* This styles the Footer For all pages */
+
+   
         
        /* Styles logo on the nav bars for all pages except the home page */
     
@@ -42,6 +48,7 @@
         padding:0px; 
         padding-bottom: 0px;    
         height: 250px;   
+        max-width:100%;
              }
              /* Styles the positiong of the nav bar items*/
              .menu-item
@@ -73,7 +80,7 @@ section#carousel > figure.visible > img {
     
 }   
 
-/* Code for the Menu Page */
+/* Styles the Salsa section for the Menu Page */
 .salsa{
     position: relative;
     height:300px;
@@ -84,13 +91,13 @@ section#carousel > figure.visible > img {
 
 }
 .title{
+    font-family: 'Mayan';
+    font-size: 20px;
     text-align: center;
-        font-family:'Mayan';
-        font-size: 20px;
-        position: relative;
-        display: inline;
-        bottom: 280px;
-        left: 190px;
+    position: relative;
+    display: inline;
+    bottom: 280px;
+    left: 190px;
 
 }
 .description-one{
@@ -111,6 +118,9 @@ section#carousel > figure.visible > img {
     left: 290px;
     margin-top: 10px;
 }
+
+/* Styles Header to each section and the intro paragraph */
+
 .title-two{
         text-align: center;
         font-family:'Mayan';
@@ -126,6 +136,7 @@ section#carousel > figure.visible > img {
     margin-top: 5px;
 
 }
+/* Styles the Lunch section for the Menu Page */
 
 .tacos{
     position: relative;
@@ -134,6 +145,7 @@ section#carousel > figure.visible > img {
     margin: 50px;
     left: 180px;
     top: -30px;
+    bottom: 50px;
     }
 .lunch-list{
     text-align: left;
@@ -151,6 +163,8 @@ section#carousel > figure.visible > img {
     left:190px;
     
     }
+    
+    /* This styles the header and descriptions of the food items*/
     h4{
         font-family: 'Copperplate';
     color: #16ace3;
@@ -158,6 +172,91 @@ section#carousel > figure.visible > img {
 p{
     margin-top: -20px;
 }
-   
+
+/* Styles the Dinner section for the Menu Page */
+
+.quesadillas{
+    position: relative;
+    height:500px;
+    box-shadow: 2px 2px 4px #000000;
+    margin: 50px;
+    left: 580px;
+    top: -30px;
+    bottom: 30px;
+    }
+
+    .dinner-list{
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        position: relative;
+}
+.dinner-items{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    bottom: 140px;
+    right:220px;
+
+}
+/* Styles the Drink section for the Menu Page */
+
+.margaritas{
+ position: relative;
+    height:355px;
+    box-shadow: 2px 2px 4px #000000;
+    margin: 50px;
+    margin-top: 20px;
+    left: 100px;
+ 
+}
+
+.drink-list{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+.drink-items{
+text-align: left;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+position: relative;
+display: inline-block;
+bottom: 108px;
+left:120px;
+}
+
+.sopapillas{
+    position: relative;
+    height:280px;
+    box-shadow: 2px 2px 4px #000000;
+    margin: 50px;
+    left: 52px;
+    top: -90px;
+
+}
+
+.dessert-title{
+    font-family: 'Mayan';
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    left: 190px;
+    margin-bottom: 5px;
+}
+
+.dessert-description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    left: 190px;
+}
+
 
 

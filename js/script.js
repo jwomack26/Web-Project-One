@@ -22,3 +22,4 @@ function startPlayback() {
     setTimeout(moveForward, slideInterval);
 }
 startPlayback();
+
