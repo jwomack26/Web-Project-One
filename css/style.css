@@ -1,42 +1,95 @@
 
+/* This is the code that makes my site responsive */
+/*
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+html { font-size:100%; }
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+
+.content-wrapper {
+margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  */
 /* This styles the Nav Bars For all pages */
-        .bg-color{
-            background-color: #16ace3;
-            min-height: 200px;
-            background-position: center;
-            box-shadow: 2px 2px 4px #000000;
-            width: auto;
-        }
-        
-        .container{
+@media screen and (max-width: 900px) {
+    body {
+      background-color: white;
+    }
+  }
+
+  .content-wrapper {
+    margin-right: auto;
+      margin-left: auto;
+      max-width: 100%;
+      }
+.container{
             position: relative;
             margin: 20px;
-            width: auto;
             height: 250px;
             padding:0px;
+            align-items: center;
             }
-
-    .topnav{
+    
+.topnav{
         overflow: hidden;
         font-family: 'Copperplate';
         padding-left: 0px;
         padding-top: 0px;
-        padding-bottom: 70px;
+        padding-bottom: 20px;
         text-emphasis: center;
-    }
+        background-color: #16ace3;
+        box-shadow: 2px 2px 4px #000000;
+}
 
     .topnav a {
-        float:inline;
         color: white;
         text-align: center;
         padding: 0px;
         text-decoration: none;
         font-size: 30px;
         position: relative;
+        display: inline;
     }
-
+   
+   
 /* This styles the Footer For all pages */
-
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #16ace3;
+    color: white;
+    display: block;
+  }
    
         
        /* Styles logo on the nav bars for all pages except the home page */
@@ -90,6 +143,7 @@ section#carousel > figure.visible > img {
     top: 50px;
 
 }
+
 .title{
     font-family: 'Mayan';
     font-size: 20px;
@@ -258,5 +312,13 @@ left:120px;
     left: 190px;
 }
 
+/* This styles the back to top button on all pages */
+#backtotop{
+    font-family:"Mayan";
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: sticky;
+}
 
-
+  

@@ -22,4 +22,5 @@ function startPlayback() {
     setTimeout(moveForward, slideInterval);
 }
 startPlayback();
+//Get the button:
 
