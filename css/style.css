@@ -110,20 +110,6 @@ footer {
                  bottom:105px;
                  left: 140px
                   }
-             
-/* Stlyes the Carousel on the home page */
-section#carousel > figure > img {
-            display: none;   
-            margin: 0px auto; 
-            position: relative;
-            overflow: hidden; 
-            width: 100%; 
-            }
-section#carousel > figure.visible > img {
-            display:block;
-            position: relative;
-            overflow: hidden;
-}
 
 /* Styles logo on the homepage */
 .homepagelogo{

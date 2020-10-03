@@ -5,24 +5,46 @@
 La Botellita    
 </title>
 <link rel="stylesheet" href="/Users/jerilynwomack/Desktop/ProjectOne/css/style.css"/>
-<script type="text/javascript" src="/Users/jerilynwomack/Desktop/ProjectOne/js/script.js"> </script>
+ <script type="text/javascript" src="/Users/jerilynwomack/Desktop/ProjectOne/js/script.js"> </script>
+<!-- For the Carousel
+-->
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>    
 <body>
-           <!--This is the html for the Carousell-->
-           <section id="carousel">
-            <figure class="visible">
-            <img src="img/carousellsalsa.jpg"/>
-            </figure>
-            <figure>
-                <img src="img/carousellmargarita.jpg"/>
-            </figure>
-            <figure>
-                <img src="img/carousellcatering.jpg"/>
-            </figure>
-                </section>
-    <header>
+    <!-- Code for the Carousel-->
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="img/carousellsalsa.jpg" alt="salsa" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="img/carousellmargarita.jpg" alt="margarita" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="img/carousellcatering.jpg" alt="catering" style="width:100%;">
+            </div>
+        
+          </div>
+           
 
-    <img src="img/LaBotellitaLogos_White-01.png"> 
+ <header>
+<img src="img/LaBotellitaLogos_White-01.png"> 
   
     <!--This is the html for the nav bar-->
  <nav>
