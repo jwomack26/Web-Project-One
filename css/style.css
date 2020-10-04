@@ -40,7 +40,7 @@ margin-right: auto;
     }
   }
   */
-/* This styles the Nav Bars For all pages */
+/* This styles the Nav Bars For all pages but home page*/
 @media screen and (max-width: 900px) {
     body {
       background-color: white;
@@ -307,4 +307,32 @@ left:120px;
     position: sticky;
 }
 
-  
+#homelogo{
+    position: absolute;
+    width: 900px;
+    margin-right: 100px;
+    margin-bottom: -100px;
+}
+
+li{
+    font-family: 'Copperplate';
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    display: inline;
+    margin-right:105px;
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 12px;
+    margin-bottom: 60px;
+    }
+
+li a:hover {
+    color: #16ace3;
+    text-decoration: none;
+  }
