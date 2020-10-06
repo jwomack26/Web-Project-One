@@ -1,10 +1,15 @@
 
+ @media screen and (max-width: 900px) {
+    body {
+      background-color: white;
+    }
+  }
  /* This styles the logo and nav bar on the home page */
 #homelogo{
     position: absolute;
     width: 850px;
     margin-right: 150px;
-    margin-bottom: 1150px;
+    margin-bottom: 1480px;
     }
 
 li{
@@ -23,7 +28,7 @@ li a{
     text-decoration: none;
     color: white;
     padding-bottom: 12px;
-    margin-bottom: 1290px;
+    margin-bottom: 1620px;
     }
 
 li a:hover {
@@ -48,6 +53,27 @@ p{
     text-align: center;
         }
 
+.btn-menu{
+    text-decoration: none;
+    font-family: 'Copperplate';
+    color: #16ace3;
+    background-color: white;
+    border: 2px solid #16ace3;
+    padding: 10px 24px;
+    position:relative;
+    text-align: center;
+    margin-left: 485px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+            }
+        
+.btn-menu:hover{
+    background-color: #16ace3;
+    color: white;
+            }
+
+          
 /* Styles the Bootstrap Multi-Column Element on HomePage */
 
 .heading{
@@ -84,14 +110,24 @@ position: relative;
     right: 100px;
     padding:100px;
     } 
-/* This styles the Nav Bars For all pages but home page*/
-@media screen and (max-width: 900px) {
-    body {
-      background-color: white;
-    }
-  }
 
-  .content-wrapper {
+/* Styles Footer on the Home Page */
+
+.backtotophome{
+   text-align: center;
+    padding: 3px;
+    background-color:#16ace3;
+    color: white;
+    display: block;
+}
+#footer{
+    background-color: #16ace3;
+    height: 100px;
+}
+
+/* This styles the Nav Bars For all pages but home page*/
+
+.content-wrapper {
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
@@ -126,7 +162,7 @@ position: relative;
     display: inline;
     }
    
-/* This styles the Footer For all pages */
+/* This styles the Footer For all pages but home page */
 
 footer {
     text-align: center;
@@ -157,8 +193,8 @@ footer {
     left: 140px
     }
 
-
 /* Styles the Salsa section for the Menu Page */
+
 .salsa{
     position: relative;
     height:300px;
@@ -252,9 +288,11 @@ footer {
     h4{
     font-family: 'Copperplate';
     color: #16ace3;
+    text-align: left;
     }   
 
     p{margin-top: -20px;
+    text-align: left;
     }
 
 /* Styles the Dinner section for the Menu Page */
