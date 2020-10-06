@@ -5,21 +5,27 @@
 La Botellita    
 </title>
 <link rel="stylesheet" href="/Users/jerilynwomack/Desktop/ProjectOne/css/style.css"/>
- <script type="text/javascript" src="/Users/jerilynwomack/Desktop/ProjectOne/js/script.js"> </script>
+<script type="text/javascript" src="/Users/jerilynwomack/Desktop/ProjectOne/js/script.js"> </script>
  
-<!-- For the Carousel-->
+ <!-- For the Carousel-->
  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <!-- For the Bootstrap Multi-Column Layout-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>    
-<body>
+
+<body class="container-two">
     <!-- Code for the Carousel-->
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+          <ol class="carousel-indicators" style="margin-bottom: 1250px;">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -39,11 +45,9 @@ La Botellita
             <div class="item">
               <img src="img/carousellcatering.jpg" alt="catering" style="width:100%;">
             </div>
-        
-          </div>
+        </div>
            
-
- <header>
+<header>
  <img src="img/LaBotellitaLogos_White-01.png" id="homelogo" style="position:absolute;right:0;bottom:0;z-index:1;"> 
   
    <!--This is the html for the nav bar-->
@@ -58,8 +62,42 @@ La Botellita
  </nav>
        </header>
 
+       <div class="about">
+<h2 style=" font-family: 'Copperplate'; color:#16ace3; margin-top: 80px;">
+    The Right Amount Of Flavor
+</h2>
+<img src="img/chipmotif.png" width="500px" style="position: relative; margin-top: -80px; margin-left:320px; margin-bottom:-50px;">
+<p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 15px;">
+    At La Botellita, we believe in the freedom to pick the right amount of flavor. That’s why we serve a variety of freshly made salsas at different levels of spice.<br>
+    Whether you just want a mild compliment to your meal or something with a kick, we’ve got it ready to serve with unlimited tortilla chips.</p>
+<button class="menubutton">View Menu</button>
+       </div>
 
-    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+       <img src="img/CateringHP.jpg" style="width: 50%; position:inline-block; float: left; margin-top: 20px;">
+
+<main class="row">
+    <article class="well col-md-4" style="padding:100px; width:48%; position:relative; margin-left:-95px; margin-top: 20px;">
+<h4 class="heading"> Let Us Cater Your <br> Next Big Event</h4>
+
+<button class="button" > Request Catering</button>
+
+ </article>
+
+</main>
+<img src="img/homepagerestaurantimage.jpg" style="width: 50%; position:inline-block; float: right; margin-top:-10px;">
+<main class="row">
+    </article>
+
+<article class="well col-md-4" style="padding:100px; width:48%; position:relative; margin-left:-85px; margin-top: -10px; background-color: #16ace3;">
+<h4 class="heading" style="color: white;"> Save A Seat <br> Online</h4>
+     <button class="button"> Book A Reservation</button>
+     </article>
+</main>
+
+<!-- Back to Top for the HomePage-->
+    <a id="back2Top" title="Back to top" href="#" style="font-family:'Mayan'; color:#16ace3; text-decoration: none;">
+Back To Top
+    </a>
 
     </body>
 </html>

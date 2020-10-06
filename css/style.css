@@ -1,45 +1,89 @@
 
-/* This is the code that makes my site responsive */
-/*
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-img { max-width: 100%; height: auto; }
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
+ /* This styles the logo and nav bar on the home page */
+#homelogo{
+    position: absolute;
+    width: 850px;
+    margin-right: 150px;
+    margin-bottom: 1150px;
     }
-}
 
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
+li{
+    font-family: 'Copperplate';
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    display: inline;
+    margin-right:105px;
     }
-}
-html { font-size:100%; }
-@media (min-width: 640px) { body {font-size:1rem;} } 
-@media (min-width:960px) { body {font-size:1.2rem;} } 
-@media (min-width:1100px) { body {font-size:1.5rem;} } 
 
-.content-wrapper {
-margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  }
-
-  @media screen and (max-width: 600px) {
-    .topnav a {
-      float: none;
-      width: 100%;
+li a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 12px;
+    margin-bottom: 1290px;
     }
-  }
-  */
+
+li a:hover {
+    color: #16ace3;
+    text-decoration: none;
+    }
+
+/*Styles about section on home page */
+
+.about{
+    border-width: 10px;
+    border-style: double;
+    border-color: #16ace3;
+    margin-top: 20px;
+    }
+
+h2{
+    text-align: center;
+    }
+
+p{
+    text-align: center;
+        }
+
+/* Styles the Bootstrap Multi-Column Element on HomePage */
+
+.heading{
+    text-decoration: none;  
+    font-family: 'Copperplate';
+    text-align: center;
+    color: #16ace3;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 50px;
+    }
+
+.button{
+    text-decoration: none;
+    font-family: 'Copperplate';
+    color: #16ace3;
+    background-color: white;
+    border: 2px solid #16ace3;
+    padding: 10px 24px;
+    position:relative;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    }
+
+.button:hover{
+    background-color: #16ace3;
+    color: white;
+    }
+
+article{
+position: relative;
+    left: 100px;
+    right: 100px;
+    padding:100px;
+    } 
 /* This styles the Nav Bars For all pages but home page*/
 @media screen and (max-width: 900px) {
     body {
@@ -49,40 +93,41 @@ margin-right: auto;
 
   .content-wrapper {
     margin-right: auto;
-      margin-left: auto;
-      max-width: 100%;
+    margin-left: auto;
+    max-width: 100%;
       }
+
 .container{
-            position: relative;
-            margin: 20px;
-            height: 250px;
-            padding:0px;
-            align-items: center;
-            }
+    position: relative;
+    margin: 20px;
+    height: 250px;
+    padding:0px;
+    align-items: center;
+    }
     
 .topnav{
-        overflow: hidden;
-        font-family: 'Copperplate';
-        padding-left: 0px;
-        padding-top: 0px;
-        padding-bottom: 20px;
-        text-emphasis: center;
-        background-color: #16ace3;
-        box-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
+    font-family: 'Copperplate';
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-emphasis: center;
+    background-color: #16ace3;
+    box-shadow: 2px 2px 4px #000000;
 }
 
-    .topnav a {
-        color: white;
-        text-align: center;
-        padding: 0px;
-        text-decoration: none;
-        font-size: 30px;
-        position: relative;
-        display: inline;
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    display: inline;
     }
    
-   
 /* This styles the Footer For all pages */
+
 footer {
     text-align: center;
     padding: 3px;
@@ -91,33 +136,27 @@ footer {
     display: block;
   }
    
-        
-       /* Styles logo on the nav bars for all pages except the home page */
+/* Styles logo on the nav bars for all pages except the home page */
     
-       .logo{
-        display:inline-block;        
-        position: relative;
-        margin:0px;
-        padding:0px; 
-        padding-bottom: 0px;    
-        height: 250px;   
-        max-width:100%;
-             }
-             /* Styles the positiong of the nav bar items*/
-             .menu-item
-             {
-                 position: relative;
-                 bottom:105px;
-                 left: 140px
-                  }
-
-/* Styles logo on the homepage */
-.homepagelogo{
+.logo{
+    display:inline-block;        
     position: relative;
-    margin: 0px;
-    padding:0px;
-    
-}   
+    margin:0px;
+    padding:0px; 
+    padding-bottom: 0px;    
+    height: 250px;   
+    max-width:100%;
+     }
+
+ /* Styles the positiong of the nav bar items*/
+             
+ .menu-item
+    {
+    position: relative;
+    bottom:105px;
+    left: 140px
+    }
+
 
 /* Styles the Salsa section for the Menu Page */
 .salsa{
@@ -140,6 +179,7 @@ footer {
     left: 190px;
 
 }
+
 .description-one{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -149,6 +189,7 @@ footer {
     left: 290px;
     margin-top: 5px;
     }
+
 .salsa-list{
     font-family: 'Copperplate';
     text-align: center;
@@ -162,11 +203,12 @@ footer {
 /* Styles Header to each section and the intro paragraph */
 
 .title-two{
-        text-align: center;
-        font-family:'Mayan';
-        font-size: 20px;
-        margin-top: -60px;
-        }
+    text-align: center;
+    font-family:'Mayan';
+    font-size: 20px;
+    margin-top: -60px;
+    }
+
 .description-two{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -174,8 +216,8 @@ footer {
     bottom: 280px;
     left: 190px;
     margin-top: 5px;
-
 }
+
 /* Styles the Lunch section for the Menu Page */
 
 .tacos{
@@ -187,31 +229,33 @@ footer {
     top: -30px;
     bottom: 50px;
     }
+
 .lunch-list{
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     position: relative;
     }
+
     .lunch-items{
-        text-align: left;
+    text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     position: relative;
     display: inline-block;
     bottom: 280px;
     left:190px;
-    
     }
     
-    /* This styles the header and descriptions of the food items*/
+/* This styles the header and descriptions of the food items*/
+
     h4{
-        font-family: 'Copperplate';
+    font-family: 'Copperplate';
     color: #16ace3;
-}
-p{
-    margin-top: -20px;
-}
+    }   
+
+    p{margin-top: -20px;
+    }
 
 /* Styles the Dinner section for the Menu Page */
 
@@ -225,12 +269,13 @@ p{
     bottom: 30px;
     }
 
-    .dinner-list{
-        text-align: left;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 15px;
-        position: relative;
-}
+.dinner-list{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    }
+
 .dinner-items{
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -241,33 +286,34 @@ p{
     right:220px;
 
 }
+
 /* Styles the Drink section for the Menu Page */
 
 .margaritas{
- position: relative;
+    position: relative;
     height:355px;
     box-shadow: 2px 2px 4px #000000;
     margin: 50px;
     margin-top: 20px;
     left: 100px;
- 
-}
+    }
 
 .drink-list{
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     position: relative;
-}
+    }
+
 .drink-items{
-text-align: left;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 15px;
-position: relative;
-display: inline-block;
-bottom: 108px;
-left:120px;
-}
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    bottom: 108px;
+    left:120px;
+    }
 
 .sopapillas{
     position: relative;
@@ -276,8 +322,7 @@ left:120px;
     margin: 50px;
     left: 52px;
     top: -90px;
-
-}
+    }
 
 .dessert-title{
     font-family: 'Mayan';
@@ -287,7 +332,7 @@ left:120px;
     bottom: 350px;
     left: 190px;
     margin-bottom: 5px;
-}
+    }
 
 .dessert-description{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -296,43 +341,17 @@ left:120px;
     position: relative;
     bottom: 350px;
     left: 190px;
-}
+    }
 
-/* This styles the back to top button on all pages */
+/* This styles the back to top button on the footer for all pages but homepage */
+
 #backtotop{
     font-family:"Mayan";
     text-decoration: none;
     text-align: center;
     color: white;
     position: sticky;
-}
-
-#homelogo{
-    position: absolute;
-    width: 900px;
-    margin-right: 100px;
-    margin-bottom: -100px;
-}
-
-li{
-    font-family: 'Copperplate';
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    position: relative;
-    display: inline;
-    margin-right:105px;
-}
-li a{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    padding-bottom: 12px;
-    margin-bottom: 60px;
     }
 
-li a:hover {
-    color: #16ace3;
-    text-decoration: none;
-  }
+
+  
