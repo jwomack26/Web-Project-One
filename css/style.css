@@ -1,15 +1,9 @@
-
- @media screen and (max-width: 900px) {
-    body {
-      background-color: white;
-    }
-  }
  /* This styles the logo and nav bar on the home page */
 #homelogo{
     position: absolute;
     width: 850px;
     margin-right: 150px;
-    margin-bottom: 1210px;
+    margin-bottom: 1270px;
     }
 
 li{
@@ -28,7 +22,7 @@ li a{
     text-decoration: none;
     color: white;
     padding-bottom: 12px;
-    margin-bottom: 1325px;
+    margin-bottom: 1380px;
     }
 
 li a:hover {
@@ -53,28 +47,7 @@ p{
     text-align: center;
         }
 
-.btn-menu{
-    text-decoration: none;
-    font-family: 'Copperplate';
-    color: #16ace3;
-    background-color: white;
-    border: 2px solid #16ace3;
-    padding: 10px 24px;
-    position:relative;
-    text-align: center;
-    margin-left: 485px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    
-            }
-        
 
-.btn-menu:hover{
-    background-color: #16ace3;
-    color: white;
-}
-
-          
 /* Styles the Bootstrap Multi-Column Element on HomePage */
 
 .heading{
@@ -87,24 +60,6 @@ p{
     margin-top: 50px;
     }
 
-.button{
-    text-decoration: none;
-    font-family: 'Copperplate';
-    color: #16ace3;
-    background-color: white;
-    border: 2px solid #16ace3;
-    padding: 10px 24px;
-    position:relative;
-    text-align: center;
-    margin-left: 80px;
-    margin-bottom: 60px;
-    }
-
-.button:hover{
-    background-color: #16ace3;
-    color: white;
-    }
-
 article{
 position: relative;
     left: 100px;
@@ -112,6 +67,18 @@ position: relative;
     padding:100px;
     } 
 
+.fa {
+    margin-left:470px;
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:#16ace3
+    }
+    
+    
+    
 /* This styles the Nav Bars For all pages but home page*/
 
 .content-wrapper {
