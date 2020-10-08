@@ -22,14 +22,14 @@
                             <img src="img/LaBotellitaLogos_White-01.png" class="logo" id="anchor">  
                             </a> 
                             <a href="menu.html" class="menu-item"> Menu | </a>
-                            <a href="#" class="menu-item">  Reservations | </a>
-                            <a href="#" class="menu-item"> Catering</a>
+                            <a href="reservation.html" class="menu-item">  Reservations</a>
                          </div>
                     </div>
                 </div>   
 
 <img src="img/takeout.jpg" style="width: 1080px; margin-left: 100px; margin-top: 40px;">
 
+<p style="text-align: center; font-family: 'Copperplate'; margin-top: 20px;"> Please fill out the form and click submit to place a takeout order.</p>
 <div class="formone">
 <summary>
     <form>
@@ -63,7 +63,53 @@
   <option value="tamale"> Tamale Platter</option>
   <option value="quesadilla"> Quesadilla Supreme</option>
 </select>
-<h4>Test</h4>
+
+<form action="/action_page.php">
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position:relative; margin-top:20px; display: inline-block;">Room for Sopapillas?</p>
+    <input type="radio" id="yes" name="choice" value="yes">
+    <label for="yes" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position:relative">Yes Please!</label>
+    <input type="radio" id="no" name="choice" value="no">
+    <label for="no" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative;">No Thank You</label>
+</form>
+
+<form action="/action_page.php">
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position:relative; margin-top:20px;margin-bottom: -5px;">Payment Information</p>
+    <input type="radio" id="visa" name="payment" value="visa">
+    <label for="visa" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position:relative">Visa</label>
+    <input type="radio" id="mastercard" name="payment" value="mastercard">
+    <label for="no" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative;">Master Card</label>
+    <input type="radio" id="discover" name="payment" value="discover">
+    <label for="discover" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative;">Discover</label>
+    <input type="radio" id="amex" name="payment" value="amex">
+    <label for="amex" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; position: relative;">Amex</label>
+</form>
+  
+<div class="formone">
+    <summary>
+        <form>
+            <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Card Holder Name</label>
+            <input type="text" required="required"/><br>
+            <label style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-left: 1px; display: inline-block;">Card Number</label> 
+            <input type="text" required="required" style="width:200px; margin-right: 20px;"/>
+            <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Experation Date</label>
+            <input type="text" required="required"/>
+            <label style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-left: 1px; display: inline-block;">Card 3 Digit Security Code</label> 
+            <input type="text" required="required" style="width:100px; margin-right: 20px;"/>
+            <label style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Card Zip Code</label>
+            <input type="text" required="required"/>
+            <input type="submit" value="Submit" style="margin-bottom: 20px;"/>
+        </form>
+    </summary>
+    </div>
+
+   
+
+    <!-- This is the footer and back to top button-->
+                       
+    <footer>
+        <a href="#anchor" id="backtotop" style="padding:5px;">Back To Top</a>
+      </footer>                                       
+
 </div>
 </body>
 </html>

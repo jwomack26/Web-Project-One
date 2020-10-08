@@ -9,7 +9,7 @@
     position: absolute;
     width: 850px;
     margin-right: 150px;
-    margin-bottom: 1480px;
+    margin-bottom: 1210px;
     }
 
 li{
@@ -19,7 +19,7 @@ li{
     font-size: 30px;
     position: relative;
     display: inline;
-    margin-right:105px;
+    margin-right:150px;
     }
 
 li a{
@@ -28,7 +28,7 @@ li a{
     text-decoration: none;
     color: white;
     padding-bottom: 12px;
-    margin-bottom: 1620px;
+    margin-bottom: 1325px;
     }
 
 li a:hover {
@@ -112,20 +112,6 @@ position: relative;
     padding:100px;
     } 
 
-/* Styles Footer on the Home Page */
-
-.backtotophome{
-   text-align: center;
-    padding: 3px;
-    background-color:#16ace3;
-    color: white;
-    display: block;
-}
-#footer{
-    background-color: #16ace3;
-    height: 100px;
-}
-
 /* This styles the Nav Bars For all pages but home page*/
 
 .content-wrapper {
@@ -163,7 +149,7 @@ position: relative;
     display: inline;
     }
    
-/* This styles the Footer For all pages but home page */
+/* This styles the Footer For all pages */
 
 footer {
     text-align: center;
@@ -191,7 +177,7 @@ footer {
     {
     position: relative;
     bottom:105px;
-    left: 140px
+    left: 250px
     }
 
 /* Styles the Salsa section for the Menu Page */
@@ -414,8 +400,5 @@ form {
 }
 
 select{
-
     margin-right:30%;
-    
-}
 }
