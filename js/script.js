@@ -1,3 +1,5 @@
+//for Carousel on the home page
+
 var slideInterval = 3500;
 function getFigures() {
     return 

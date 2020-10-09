@@ -22,7 +22,7 @@ li a{
     text-decoration: none;
     color: white;
     padding-bottom: 12px;
-    margin-bottom: 1380px;
+    margin-bottom: 1420px;
     }
 
 li a:hover {
@@ -47,7 +47,6 @@ p{
     text-align: center;
         }
 
-
 /* Styles the Bootstrap Multi-Column Element on HomePage */
 
 .heading{
@@ -61,12 +60,13 @@ p{
     }
 
 article{
-position: relative;
+    position: relative;
     left: 100px;
     right: 100px;
     padding:100px;
     } 
 
+/* this styles the Social Media section */
 .fa {
     margin-left:470px;
     padding: 20px;
@@ -76,8 +76,6 @@ position: relative;
     text-decoration: none;
     color:#16ace3
     }
-    
-    
     
 /* This styles the Nav Bars For all pages but home page*/
 
@@ -369,3 +367,5 @@ form {
 select{
     margin-right:30%;
 }
+
+
