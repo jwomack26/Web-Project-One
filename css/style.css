@@ -66,7 +66,8 @@ article{
     padding:100px;
     } 
 
-/* this styles the Social Media section */
+/* Styles the Social Media section */
+
 .fa {
     margin-left:470px;
     padding: 20px;
@@ -77,7 +78,7 @@ article{
     color:#16ace3
     }
     
-/* This styles the Nav Bars For all pages but home page*/
+/* This styles the Nav Bars For all pages but home page */
 
 .content-wrapper {
     margin-right: auto;
@@ -154,8 +155,7 @@ footer {
     margin: 50px;
     left: 52px;
     top: 50px;
-
-}
+    }
 
 .title{
     font-family: 'Mayan';
@@ -165,8 +165,7 @@ footer {
     display: inline;
     bottom: 280px;
     left: 190px;
-
-}
+    }
 
 .description-one{
     text-align: center;
@@ -186,9 +185,9 @@ footer {
     bottom: 280px;
     left: 290px;
     margin-top: 10px;
-}
+    }
 
-/* Styles Header to each section and the intro paragraph */
+/* Styles Header to each section and the intro paragraph on Menu Page*/
 
 .title-two{
     text-align: center;
@@ -204,7 +203,7 @@ footer {
     bottom: 280px;
     left: 190px;
     margin-top: 5px;
-}
+    }
 
 /* Styles the Lunch section for the Menu Page */
 
@@ -235,7 +234,7 @@ footer {
     left:190px;
     }
     
-/* This styles the header and descriptions of the food items*/
+/* This styles the header and descriptions of the food items on the Menu Page*/
 
     h4{
     font-family: 'Copperplate';
@@ -343,7 +342,7 @@ footer {
     position: sticky;
     }
     
-/* This Stlyes the Order to Go Page */
+/* This Stlyes the form on the Order to Go Page */
 
 label, input {
     display: inline-block;
